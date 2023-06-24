@@ -1,0 +1,113 @@
+body {
+    background-color: #f2f2f2;
+  }
+  
+  .nav ul {
+    margin: 0;
+  }
+  
+  .nav li {
+    display: inline;
+  }
+  
+  .nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+  }
+  
+  .main-nav li {
+    padding: 0 5%;
+  }
+  
+  .nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+  }
+  
+  .main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 20px;
+  }
+  form {
+    background-color: #7b7faf;
+    width: 400px;
+    height: 44px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+  }
+  
+  input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+  
+  ::placeholder {
+    color: #fff;
+    opacity: 0.7; 
+  }
+  
+  svg {
+    color: #fff;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
+  
+  button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  .book-list {
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    /*box-shadow: 0 2px 4px rgba(167, 151, 151, 0.1);*/
+    color: #ffffff;
+  }
+  .book-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .book-list th,
+  .book-list td {
+    padding: 8px;
+    text-align: left;
+  }
+  .book-list th {
+    background-color: #2e2d2d;
+  }
+  .book-list tr:nth-child(even) {
+    background-color: #6d6b6b;
+  }
+  .book-list tr:hover {
+    background-color: #a89a9a;
+  }

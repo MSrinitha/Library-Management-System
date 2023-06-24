@@ -1,0 +1,41 @@
+/* cart.css */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #cart-container {
+    margin: 20px auto;
+    max-width: 500px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item span {
+    flex: 1;
+    font-weight: bold;
+  }
+  
+  .rent-button {
+    background-color: #3eb1c0;
+    color: rgb(189, 71, 106);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .rent-button:hover {
+    background-color: #7090aa;
+  }
+
+ 
